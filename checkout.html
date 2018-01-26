@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- <link rel="stylesheet" type="text/css" href="fonts/MyFontsWebfontsKit.css"/> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+
+  </head>
+  <body>
+
+    <div class="checkout clr">
+
+        <div class="main-headline">
+            <h2>Complete Your Order</h2>
+        </div><!--main-headline-->
+
+        <div class="order fl">
+
+              <div class="order-box-wrap">
+                  <div class="order-box filled">
+                      <div class="check-mark">
+                          <img src="images/check-blue.png" alt="check">
+                      </div><!--check mark-->
+
+                      <div class="box-title filled">
+                        <h3>1. Fufillment Method: Ship To Me</h3>
+                      </div><!--box title-->
+
+                      <div class="box-edit">
+                        <a href="#">Edit</a>
+                      </div><!--box edit-->
+                  </div><!--order-box-->
+              </div><!--order-box-wrap-->
+
+
+              <div class="order-box-wrap">
+                  <div class="order-box bg-white">
+                    <div class="box-title">
+                      <h3>2. Shipping Address</h3>
+                    </div><!--box title-->
+                  </div><!--order-box-->
+
+
+                  <div class="order-box-drop">
+                      <div class="order-box-details">
+                            <div class="your-address">
+                                <div class="choose-address">
+                                    <h5>Your Saved Address</h5>
+
+                                    <div class="address-btns">
+                                        <div class="choose-btn">
+                                            <input type="radio" name="radioAddress" id="address1">
+                                            <label for="address1"> <span>Jill Price</span> 123 Main St, Atlanta, GA, 12345</label>
+                                        </div><!--choose-btn-->
+
+                                        <div class="choose-btn">
+                                            <input type="radio" name="radioAddress" id="address2">
+                                            <label for="address2"> <span>Jill Price</span> 456 Broadway #4, Atlanta, GA, 12345</label>
+                                        </div><!--choose-btn-->
+
+                                        <div class="choose-btn">
+                                          <input type="radio" name="radioAddress" id="new-address">
+                                          <label for="new-address"> <span class="new-address">Add A New Address</span> </label>
+                                        </div><!--choose-btn-->
+                                    </div><!--address-btns-->
+                                </div><!--choose-address-->
+
+
+                                <div class="your-address-new">
+                                    </form>
+                                        <ul>
+                                            <li>
+                                                <input type="text" name="fName" placeholder="First Name">
+                                            </li>
+
+                                            <li>
+                                                <input type="text" name="lName" placeholder="Last Name">
+                                            </li>
+
+                                            <li>
+                                                <input type="text" name="address1" placeholder="Address">
+                                                <label>Street Address, PO Box, Company Name, C/O</label>
+                                            </li>
+
+                                            <li>
+                                                <input type="text" name="address2" placeholder="Address 2 (Optional)">
+                                                <label>Apartment, Suite, Unit, Building, Floor, etc.</label>
+                                            </li>
+
+                                            <li>
+                                                <select class="select-country">
+                                                    <option>United States of America</option>
+                                                </select>
+                                            </li>
+
+                                            <li>
+                                                <input type="text" name="city" placeholder="City">
+                                            </li>
+
+                                            <li>
+                                                <div class="state-wrap fl">
+                                                    <select class="select-state">
+                                                        <option>GA</option>
+                                                    </select>
+                                                </div><!--state-wrap-->
+
+                                                <div class="zip-wrap fr">
+                                                    <input class="zip-code warning" type="number" name="zipCode" placeholder="Zip Code" required>
+                                                </div><!--zip-wrap-->
+                                            </li>
+
+                                            <li class="phone">
+                                                    <input type="number" name="phone" placeholder="Phone Number">
+                                            </li>
+
+                                            <li>
+                                                <input type="email" name="email" placeholder="Email Address">
+                                                <label>Changes to your mail will not affect getiqos.com account</label>
+                                            </li>
+
+                                            <li>
+                                                <input id="saveCheckbox" type="checkbox" name="saveInfo">
+                                                <label for="saveCheckbox">Save this information for future orders</label>
+                                            </li>
+                                        </ul>
+                                    </form>
+                                </div><!--your-address-new-->
+                            </div><!--your-address-->
+
+                            <div class="address-next-btn">
+                                <a class="white-btn" href="#">NEXT</a>
+                            </div><!--address-next-btn-->
+                      </div><!--order-box-details-->
+                  </div><!--order-box-drop-->
+
+              </div><!--order-box-wrap-->
+
+
+              <div class="order-box-wrap">
+                  <div class="order-box">
+                    <div class="box-title">
+                      <h3>3. Shipping Method</h3>
+                    </div><!--box title-->
+                  </div><!--order-box-->
+              </div><!--order-box-wrap-->
+
+
+              <div class="order-box-wrap">
+                  <div class="order-box">
+                    <div class="box-title">
+                      <h3>4. Payment Information</h3>
+                    </div><!--box title-->
+                  </div><!--order-box-->
+              </div><!--order-box-wrap-->
+
+
+              <div class="order-box-wrap">
+                  <div class="order-box">
+                    <div class="box-title">
+                      <h3>5. Complete Order</h3>
+                    </div><!--box title-->
+                  </div><!--order-box-->
+              </div><!--order-box-wrap-->
+
+        </div><!--order-->
+
+
+
+        <div class="order-price fr">
+            <div class="order-sum">
+                <div class="order-headline">
+                    <h3>Order Summary</h3>
+                </div><!--order-headline-->
+
+                <div class="order-devices">
+                    <div class="device-box clr">
+                        <div class="device-img fl">
+                            <img src="images/iqos-res-kit.png" alt="device img">
+                        </div><!--device-img-->
+
+                        <div class="device-info fl">
+                            <h5>IQOS® Reserve Kit 1</h5>
+                            <p class="order-price">$169.98</p>
+                              <p> <span class="order-device-color">Slate</span>  |  <span class="order-quantity">QTY: 1</span></p>
+                        </div><!--device-info-->
+                    </div><!--device-box-->
+
+                    <div class="device-box clr">
+                      <div class="device-img fl">
+                          <img src="images/iqos-device.png" alt="device img">
+                      </div><!--device-img-->
+
+                      <div class="device-info fl">
+                          <h5>IQOS® Device</h5>
+                          <p class="order-price">$169.98</p>
+                          <p> <span class="order-device-color">Slate</span>  |  <span class="order-quantity">QTY: 1</span></p>
+                      </div><!--device-info-->
+                    </div><!--device-box-->
+                </div><!--order-devices-->
+            </div><!--order-sum-->
+
+
+            <div class="price-sum">
+              <div class="order-headline">
+                  <h3>Price Summary</h3>
+              </div><!--order-headline-->
+
+              <div class="summary-box">
+                  <div class="summary-inner">
+                        <div class="inner-left">
+                            <p>Items (2)</p>
+                        </div><!--inner-left-->
+
+                        <div class="inner-right">
+                            <p>$209.96</p>
+                        </div><!--inner-right-->
+                  </div><!--summary-inner-->
+
+                  <div class="summary-inner">
+                        <div class="inner-left">
+                            <p>Sales Tax</p>
+                        </div><!--inner-left-->
+
+                        <div class="inner-right">
+                            <p>$15.98</p>
+                        </div><!--inner-right-->
+                  </div><!--summary-inner-->
+
+                  <div class="summary-inner">
+                        <div class="inner-left">
+                            <p>Shipping</p>
+                        </div><!--inner-left-->
+
+                        <div class="inner-right">
+                            <p>Free</p>
+                        </div><!--inner-right-->
+                  </div><!--summary-inner-->
+              </div><!--summary-box-->
+
+              <div class="total-price-box">
+                  <div class="inner-left">
+                      <p>Total</p>
+                  </div><!--inner-left-->
+
+                  <div class="inner-right">
+                      <p>$225.94</p>
+                  </div><!--inner-right-->
+              </div><!--total-price-box-->
+            </div><!--price-sum-->
+        </div><!--order-price-->
+
+    </div><!--checkout-->
+
+  </body>
+</html>
