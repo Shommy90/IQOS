@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="fonts/MyFontsWebfontsKit.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script/main.js"></script>
+
+
+  </head>
+  <body>
+
+    <div class="checkout clr">
+
+        <div class="main-headline">
+            <h2>Complete Your Order</h2>
+        </div><!--main-headline-->
+
+        <div class="order fl">
+
+              <div class="order-box-wrap">
+                  <div class="order-box filled">
+                      <div class="check-mark">
+                          <img src="images/check-blue.png" alt="check">
+                      </div><!--check mark-->
+
+                      <div class="box-title filled">
+                        <h3>1. Fulfillment Method: Pick-Up In Store</h3>
+                      </div><!--box title-->
+
+                      <div class="box-edit">
+                        <a href="#">Edit</a>
+                      </div><!--box edit-->
+                  </div><!--order-box-->
+              </div><!--order-box-wrap-->
+
+
+              <div class="order-box-wrap">
+                  <div class="order-box bg-white">
+                    <div class="box-title">
+                      <h3>2. Add On</h3>
+                    </div><!--box title-->
+                  </div><!--order-box-->
+
+
+                  <div class="order-box-drop">
+                      <div class="addon-box">
+                        <ul>
+                            <li>
+                                <h4>Promo Code</h4>
+                                <div class="promo-code">
+                                    <input type="text" placeholder="Promo Code">
+                                    <button type="button" >APPLY</button>
+                                </div><!--promo-code-->
+                            </li>
+
+                            <li>
+                                <div class="addon-services bord-btm">
+                                    <h4>While You’re With Us</h4>
+                                    <p>Below, our retail locations offer additional,
+                                      exclusive services that you can schedule with your order pickup:</p>
+                                </div>
+
+                                <div class="addon-services">
+                                    <h4>Services</h4>
+                                    <p>Please Select the checkbox below if these options pertain to you
+                                      when picking up your purchases:</p>
+                                    <div class="trial-check">
+                                        <input id="guidedTrial" type="checkbox">
+                                        <label for="guidedTrial"> <span> Guided Trial: </span> We will introduce you to your new device with tutorials and tips.</label>
+                                    </div><!--trial-check-->
+                                </div>
+                            </li>
+
+                            <li class="addon-next">
+                                <a href="#">NEXT</a>
+                            </li>
+                        </ul>
+                      </div><!--addon-box-->
+                  </div><!--order-box-drop-->
+              </div><!--order-box-wrap-->
+
+
+              <div class="order-box-wrap">
+                  <div class="order-box">
+                    <div class="box-title">
+                      <h3>3. Select a Pick Up Time & Location</h3>
+                    </div><!--box title-->
+                  </div><!--order-box-->
+
+
+                  <div class="order-box-drop">
+                      <div class="pickup-time bord-btm">
+                          <div class="datelist">
+                              <h4>Select a Date</h4>
+
+                              <ul>
+                                  <li>
+                                      <input type="radio" name="radioDate" id="radioDate1">
+                                      <label for="radioDate1">
+                                          <p class="radio-month">April</p>
+                                          <p class="radio-number">5</p>
+                                          <p class="radio-day">Today, Thu</p>
+                                      </label>
+                                  </li>
+
+                                  <li>
+                                      <input type="radio" name="radioDate" id="radioDate2">
+                                      <label for="radioDate2">
+                                          <p class="radio-month">April</p>
+                                          <p class="radio-number">6</p>
+                                          <p class="radio-day">Fri</p>
+                                      </label>
+                                  </li>
+
+                                  <li>
+                                      <input type="radio" name="radioDate" id="radioDate3">
+                                      <label for="radioDate3">
+                                          <p class="radio-month">April</p>
+                                          <p class="radio-number">7</p>
+                                          <p class="radio-day">Sat</p>
+                                      </label>
+                                  </li>
+
+                                  <li>
+                                      <input type="radio" name="radioDate" id="radioDate4">
+                                      <label for="radioDate4">
+                                          <p class="radio-month">April</p>
+                                          <p class="radio-number">8</p>
+                                          <p class="radio-day">Sun</p>
+                                      </label>
+                                  </li>
+
+                                  <li>
+                                      <input type="radio" name="radioDate" id="radioDate5">
+                                      <label for="radioDate5">
+                                          <p class="radio-month">April</p>
+                                          <p class="radio-number">9</p>
+                                          <p class="radio-day">Mon</p>
+                                      </label>
+                                  </li>
+
+                                  <li>
+                                      <input type="radio" name="radioDate" id="radioDate6">
+                                      <label for="radioDate6">
+                                          <p class="radio-month">April</p>
+                                          <p class="radio-number">10</p>
+                                          <p class="radio-day">Tues</p>
+                                      </label>
+                                  </li>
+
+                                  <li>
+                                      <input type="radio" name="radioDate" id="radioDate7">
+                                      <label for="radioDate7">
+                                          <p class="radio-month">April</p>
+                                          <p class="radio-number">11</p>
+                                          <p class="radio-day">Wed</p>
+                                      </label>
+                                  </li>
+                              </ul>
+
+                              <div class="date-note">
+                                  <p>Note: We will hold your device for 48 hours after the date of your reservation.</p>
+                              </div><!--date-note-->
+                          </div><!--datelist-->
+
+
+
+                          <div class="time-list">
+                              <h4>Select a Time</h4>
+
+                              <ul>
+                                  <li>
+                                      <input type="radio" name="radioTime" id="radioTime1" disabled>
+                                      <label for="radioTime1"> 11:00am </label>
+                                  </li>
+
+                                  <li>
+                                      <input type="radio" name="radioTime" id="radioTime2" disabled>
+                                      <label for="radioTime2"> 11:30am </label>
+                                  </li>
+
+                                  <li>
+                                      <input type="radio" name="radioTime" id="radioTime3">
+                                      <label for="radioTime3"> 12:00pm </label>
+                                  </li>
+
+                                  <li>
+                                      <input type="radio" name="radioTime" id="radioTime4">
+                                      <label for="radioTime4"> 12:30pm </label>
+                                  </li>
+
+                                  <li>
+                                      <input type="radio" name="radioTime" id="radioTime5">
+                                      <label for="radioTime5"> 1:00pm </label>
+                                  </li>
+
+                                  <li>
+                                      <input type="radio" name="radioTime" id="radioTime6">
+                                      <label for="radioTime6"> 1:30pm </label>
+                                  </li>
+
+                                  <li>
+                                      <input type="radio" name="radioTime" id="radioTime7">
+                                      <label for="radioTime7"> 2:00pm </label>
+                                  </li>
+
+                                  <li>
+                                      <input type="radio" name="radioTime" id="radioTime8">
+                                      <label for="radioTime8"> 3:00pm </label>
+                                  </li>
+
+                                  <li>
+                                      <input type="radio" name="radioTime" id="radioTime9">
+                                      <label for="radioTime9"> 3:30pm </label>
+                                  </li>
+
+                                  <li>
+                                      <input type="radio" name="radioTime" id="radioTime10">
+                                      <label for="radioTime10"> 4:00pm </label>
+                                  </li>
+
+                                  <li>
+                                      <input type="radio" name="radioTime" id="radioTime11">
+                                      <label for="radioTime11"> 4:30pm </label>
+                                  </li>
+
+                                  <li>
+                                      <input type="radio" name="radioTime" id="radioTime12">
+                                      <label for="radioTime12"> 5:00pm </label>
+                                  </li>
+
+                                  <li>
+                                      <input type="radio" name="radioTime" id="radioTime13">
+                                      <label for="radioTime13"> 5:30pm </label>
+                                  </li>
+
+                                  <li>
+                                      <input type="radio" name="radioTime" id="radioTime14">
+                                      <label for="radioTime14"> 6:00pm </label>
+                                  </li>
+
+                                  <li>
+                                      <input type="radio" name="radioTime" id="radioTime15">
+                                      <label for="radioTime15"> 6:30pm </label>
+                                  </li>
+
+                                  <li>
+                                      <input type="radio" name="radioTime" id="radioTime16">
+                                      <label for="radioTime16"> 7:00pm </label>
+                                  </li>
+
+                                  <li>
+                                      <input type="radio" name="radioTime" id="radioTime17">
+                                      <label for="radioTime17"> 7:30pm </label>
+                                  </li>
+
+                                  <li>
+                                      <input type="radio" name="radioTime" id="radioTime18">
+                                      <label for="radioTime18"> 8:00pm </label>
+                                  </li>
+
+                                  <li>
+                                      <input type="radio" name="radioTime" id="radioTime19">
+                                      <label for="radioTime19"> 8:30pm </label>
+                                  </li>
+
+                                  <li>
+                                      <input type="radio" name="radioTime" id="radioTime20">
+                                      <label for="radioTime20"> 9:00pm </label>
+                                  </li>
+                              </ul>
+                          </div><!--time-list-->
+
+
+                          <div class="select-store">
+                              <h4>Select a Store</h4>
+
+                              <div class="select-store-box">
+                                  <ul class="clr">
+                                      <li class="store-loc">
+                                          <input class="sel-store" type="text" name="" >
+                                          <span class="loc-icon"></span>
+                                      </li>
+
+                                      <li class="distance">
+                                          <select class="" name="">
+                                              <option value="">5 Ml</option>
+                                              <option value="">10 Ml</option>
+                                              <option value="">15 Ml</option>
+                                          </select>
+                                      </li>
+
+                                      <li class="loc-search-btn">
+                                          <button type="button" name="button">SEARCH</button>
+                                          <span class="search-status">Searching...</span>
+                                      </li>
+                                  </ul>
+                              </div><!--select-store-box-->
+                          </div><!--select-store-->
+                      </div><!--pickup-time-->
+
+
+                      <div class="pickup-locations">
+                          <div class="locations-inner">
+                              <ul>
+                                  <li>
+                                      <div class="store-img bord-btm">
+                                          <img src="images/search-store.jpg" alt="">
+                                      </div><!--store-img-->
+
+                                      <div class="store-content">
+                                          <h3>Lenox Square IQOS Store</h3>
+                                          <p>123 Main St. <br>
+                                            Atlanta, GA, 30236</p>
+                                          <a class="sel-store-btn" href="#">Select Store</a>
+                                      </div><!--store-content-->
+                                  </li>
+
+                                  <li>
+                                      <div class="store-img bord-btm">
+                                          <img src="" alt="">
+                                      </div><!--store-img-->
+
+                                      <div class="store-content">
+                                          <h3>Lenox Square IQOS Store</h3>
+                                          <p>123 Main St. <br>
+                                            Atlanta, GA, 30236</p>
+                                          <a class="sel-store-btn" href="#">Select Store</a>
+                                      </div><!--store-content-->
+                                  </li>
+
+                                  <li>
+                                      <div class="store-img bord-btm">
+                                          <img src="" alt="">
+                                      </div><!--store-img-->
+
+                                      <div class="store-content">
+                                          <h3>Lenox Square IQOS Store</h3>
+                                          <p>123 Main St. <br>
+                                            Atlanta, GA, 30236</p>
+                                          <a class="sel-store-btn" href="#">Select Store</a>
+                                      </div><!--store-content-->
+                                  </li>
+                              </ul>
+                          </div>
+
+                          <div class="pickup-next">
+                              <a href="#">NEXT</a>
+                          </div>
+                      </div><!--pickup-locations-->
+                  </div><!--order-box-drop-->
+              </div><!--order-box-wrap-->
+
+
+              <div class="order-box-wrap">
+                  <div class="order-box">
+                    <div class="box-title">
+                      <h3>4. Confirm Your Pick Up</h3>
+                    </div><!--box title-->
+                  </div><!--order-box-->
+
+
+                  <div class="order-box-drop">
+                      <div class="confirm-pickup">
+                          <ul>
+                              <li class="email-confirmation">
+                                  <h5>Send Email Confirmation To:</h5>
+                                  <input type="email" name="" value="">
+                                  <span>Changes to your email will not affect your getIQOS.com account</span>
+                              </li><!--email-confirmation-->
+
+                              <li class="review-order">
+                                  <h5 class="italic">Please review your order, shipping information, and payment method.</h5>
+                                  <h5>By confirming this order, you are agreeing to the following statements:</h5>
+
+                                  <ul>
+                                      <li>• I certify that I am a smoker, 21 years of age or older.</li>
+                                      <li>• I understand that tobacco is an age-restricted product and my information will be sent to a third party for age verification.</li>
+                                      <li>• I acknowledge the Terms of Use, Terms of Sale and Privacy Statement.</li>
+                                  </ul>
+
+                                  <span>Some state governments may require data concerning customer purchases</span>
+                              </li><!--review-order-->
+
+                              <li class="recieve">
+                                  <div class="checkbox-recieve">
+                                      <input type="checkbox" id="cbxRecieve">
+                                      <label for="cbxRecieve">I would like to view and receive communications from IQOS® and its affiliates</label>
+                                  </div><!--checkbox-recive-->
+                              </li>
+
+                              <li class="place-order-btn">
+                                  <button type="button" name="button">PLACE ORDER</button>
+                              </li><!--place-order-btn-->
+                          </ul>
+                      </div><!--confirm-pickup-->
+                  </div><!--order-box-drop-->
+              </div><!--order-box-wrap-->
+
+        </div><!--order-->
+
+
+
+        <div class="order-price fr">
+            <div class="order-sum">
+                <div class="order-headline">
+                    <h3>Order Summary</h3>
+                </div><!--order-headline-->
+
+                <div class="order-devices">
+                    <div class="device-box clr">
+                        <div class="device-img fl">
+                            <img src="images/iqos-res-kit.png" alt="device img">
+                        </div><!--device-img-->
+
+                        <div class="device-info fl">
+                            <h5>IQOS® Reserve Kit 1</h5>
+                            <p class="order-price">$XXX.XX</p>
+                              <p> <span class="order-device-color">Slate</span>  |  <span class="order-quantity">QTY: 1</span></p>
+                        </div><!--device-info-->
+                    </div><!--device-box-->
+
+                    <div class="device-box clr">
+                      <div class="device-img fl">
+                          <img src="images/iqos-device.png" alt="device img">
+                      </div><!--device-img-->
+
+                      <div class="device-info fl">
+                          <h5>IQOS® Device</h5>
+                          <p class="order-price">$XX.XX</p>
+                          <p> <span class="order-device-color">Slate</span>  |  <span class="order-quantity">QTY: 1</span></p>
+                      </div><!--device-info-->
+                    </div><!--device-box-->
+                </div><!--order-devices-->
+            </div><!--order-sum-->
+
+
+            <div class="price-sum">
+              <div class="order-headline">
+                  <h3>Price Summary</h3>
+              </div><!--order-headline-->
+
+              <div class="summary-box">
+                  <div class="summary-inner">
+                        <div class="inner-left">
+                            <p>Items (2)</p>
+                        </div><!--inner-left-->
+
+                        <div class="inner-right">
+                            <p>$XXX.XX</p>
+                        </div><!--inner-right-->
+                  </div><!--summary-inner-->
+
+                  <div class="summary-inner">
+                        <div class="inner-left">
+                            <p>Sales Tax</p>
+                        </div><!--inner-left-->
+
+                        <div class="inner-right">
+                            <p>$XX.XX</p>
+                        </div><!--inner-right-->
+                  </div><!--summary-inner-->
+
+                  <div class="summary-inner">
+                        <div class="inner-left">
+                            <p>Shipping</p>
+                        </div><!--inner-left-->
+
+                        <div class="inner-right">
+                            <p>Free</p>
+                        </div><!--inner-right-->
+                  </div><!--summary-inner-->
+              </div><!--summary-box-->
+
+              <div class="total-price-box">
+                  <div class="inner-left">
+                      <p>Total</p>
+                  </div><!--inner-left-->
+
+                  <div class="inner-right">
+                      <p>$XXX.XX</p>
+                  </div><!--inner-right-->
+              </div><!--total-price-box-->
+            </div><!--price-sum-->
+        </div><!--order-price-->
+
+    </div><!--checkout-->
+
+  </body>
+</html>
