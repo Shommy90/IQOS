@@ -8,7 +8,7 @@ a {text-decoration: none; color: #0071dc; font-family: ProximaNovaA-Regular;}
 .fr {float: right;}
 p {color: #454545;}
 
-div, ul, li, input, select {box-sizing: border-box;}
+div, ul, li, input, select, a {box-sizing: border-box;}
 .bg-white {background-color: #fff;}
 a.white-btn {text-transform: uppercase; letter-spacing: 1px; font-family: ProximaNova-Bold; font-size: 16px; display: inline-block; padding: 18px 30px; box-sizing: border-box; border: 2px solid #0071dc; color: #0071dc; border-radius: 2px;}
 a.blue-btn {text-transform: uppercase; letter-spacing: 1px; font-family: ProximaNova-Bold; font-size: 16px; display: inline-block; padding: 18px 30px; box-sizing: border-box; border: 2px solid #0071dc; color: #fff; border-radius: 2px; background: #0071dc;}
@@ -648,13 +648,30 @@ span.dot {margin-right: 4px;}
 /********************SHOPPING CART**/
 
 .summary-checkout-btn {width: 100%; height: 70px; border: none; line-height: 70px;}
-.summary-checkout-btn a {display: block; width: 100%; height: 100%; background: #0071dc; color: #fff; text-align: center; vertical-align: middle;}
+.summary-checkout-btn a {font-family: ProximaNova-Bold; font-size: 18px; line-height: 65px; letter-spacing: 1px; transition: all .2s ease; border: 2px solid #0071dc; box-sizing: border-box;display: block; width: 100%; height: 100%; background: #0071dc; color: #fff; text-align: center; vertical-align: middle;}
+.summary-checkout-btn a:hover {background: #fff; color: #0071dc;}
 .price-sum .total-price-box.no-brd-btm {border-bottom: none; font-family: ProximaNova-Bold; font-size: 18px;}
 
 .recommended-items {margin-bottom: 60px;}
 .recommended-items .recommended {margin-bottom: 20px;}
-.recommended-items .recom-items-list ul li {max-width: 265px; width: 100%; height: 400px; border: 1px solid #d4d4d4; float: left; margin-right: 10px;}
+.recommended-items .recom-items-list ul li {background: #fff; max-width: 265px; width: 100%; min-height: 400px; border: 1px solid #d4d4d4; float: left; margin-right: 10px;}
 .recommended-items .recom-items-list ul li:last-child {margin-right: 0;}
+.recom-items-list ul li .recom-items-img {width: 100%; height: 175px;}
+.recom-items-list ul li .recom-items-img img {width: 100%;}
+.recom-items-list ul li .recom-items-content { width: 100%; padding: 25px;}
+.recom-items-list ul li .recom-items-content h5 {font-family: ProximaNova-Bold; font-size: 20px; line-height: 24px;}
+.recom-items-list ul li .recom-items-content span {font-family: ProximaNova-Semibold; font-size: 16px; line-height: 24px; color: #0071dc; display: block; margin-bottom: 20px;}
+.recom-items-list ul li .recom-items-content p {font-size: 14px; line-height: 24px; margin-bottom: 25px;}
+.recom-items-list ul li .recom-items-content a {font-family: ProximaNova-Bold; font-size: 16px; transition: all .2s ease; display: inline-block; width: 100%; height: 50px; line-height: 47px; background: #0071dc; color: #fff; border: 2px solid #0071dc; border-radius: 2px; text-align: center;}
+.recom-items-list ul li .recom-items-content a:hover {background: #fff; color: #0071dc;}
+
+.heatsticks h3.order-subtitle {margin-bottom: 30px;}
+.heatsticks-text.txt-two p {line-height: 24px !important;}
+.heatsticks-text.txt-two h6 {margin-bottom: 10px;}
+.heatsticks-text.txt-two a {text-decoration: underline;}
+
+
+
 
 
 
