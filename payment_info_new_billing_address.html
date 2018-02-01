@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="fonts/MyFontsWebfontsKit.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+  </head>
+  <body>
+
+    <div class="checkout clr">
+
+        <div class="back-to-cart">
+            <a href="#"> <span>&#129028; </span> Back to Cart</a>
+        </div><!--back-to-cart-->
+
+        <div class="main-headline">
+            <h2>Complete Your Order</h2>
+        </div><!--main-headline-->
+
+        <div class="order fl">
+
+              <div class="order-box-wrap">
+                  <div class="order-box filled">
+                      <div class="check-mark">
+                          <img src="images/check-blue.png" alt="check">
+                      </div><!--check mark-->
+
+                      <div class="box-title filled">
+                        <h3>1. Fufillment Method: Ship To Me</h3>
+                      </div><!--box title-->
+
+                      <div class="box-edit">
+                        <a href="#">Edit</a>
+                      </div><!--box edit-->
+                  </div><!--order-box-->
+              </div><!--order-box-wrap-->
+
+
+              <div class="order-box-wrap">
+                  <div class="order-box filled bg-white">
+                    <div class="check-mark">
+                        <img src="images/check-blue.png" alt="check">
+                    </div><!--check mark-->
+
+                    <div class="box-title filled">
+                      <h3>2. Shipping Address</h3>
+                    </div><!--box title-->
+
+                    <div class="box-edit">
+                      <a href="#">Edit</a>
+                    </div><!--box edit-->
+                  </div><!--order-box-->
+              </div><!--order-box-wrap-->
+
+
+              <div class="order-box-wrap">
+                  <div class="order-box filled bg-white">
+                    <div class="check-mark">
+                        <img src="images/check-blue.png" alt="check">
+                    </div><!--check mark-->
+
+                    <div class="box-title filled">
+                      <h3>3. Shipping Method</h3>
+                    </div><!--box title-->
+
+                    <div class="box-edit">
+                      <a href="#">Edit</a>
+                    </div><!--box edit-->
+                  </div><!--order-box-->
+              </div><!--order-box-wrap-->
+
+
+              <div class="order-box-wrap">
+                  <div class="order-box">
+                    <div class="box-title">
+                      <h3>4. Payment Information</h3>
+                    </div><!--box title-->
+                  </div><!--order-box-->
+
+                  <div class="order-box-drop">
+                      <div class="bill-address-check bord-btm">
+                          <input id="bill-add" type="checkbox" >
+                          <label for="bill-add"> Billing address same as shipping </label>
+                      </div><!--bill-address-check-->
+
+
+                      <div class="payment-new-address">
+                          <div class="your-address-new bord-btm">
+                              </form>
+                                  <ul>
+                                      <li>
+                                          <input type="text" name="fName" placeholder="Legal First Name">
+                                      </li>
+
+                                      <li>
+                                          <input type="text" name="lName" placeholder="Last Name">
+                                      </li>
+
+                                      <li>
+                                          <input type="text" name="address1" placeholder="Address">
+                                          <label>Street Address, PO Box, Company Name, C/O</label>
+                                      </li>
+
+                                      <li>
+                                          <input type="text" name="address2" placeholder="Address 2 (Optional)">
+                                          <label>Apartment, Suite, Unit, Building, Floor, etc.</label>
+                                      </li>
+
+                                      <li>
+                                          <select class="select-country">
+                                              <option disabled selected>Country</option>
+                                              <option>United States of America</option>
+                                          </select>
+                                      </li>
+
+                                      <li>
+                                          <input type="text" name="city" placeholder="City">
+                                      </li>
+
+                                      <li>
+                                          <div class="state-wrap fl">
+                                              <select class="select-state">
+                                                  <option disabled selected>State</option>
+                                                  <option>GA</option>
+                                              </select>
+                                          </div><!--state-wrap-->
+
+                                          <div class="zip-wrap fr">
+                                              <input class="zip-code warning" type="number" name="zipCode" placeholder="Zip Code" required>
+                                          </div><!--zip-wrap-->
+                                      </li>
+
+                                      <li >
+                                              <input type="number" name="phone" placeholder="Phone Number">
+                                      </li>
+
+                                      <li>
+                                          <input type="email" name="email" placeholder="Email">
+                                          <label>Changes to your mail will not affect getiqos.com account</label>
+                                      </li>
+                                  </ul>
+                              </form>
+                          </div><!--your-address-new-->
+                      </div><!--payment-new-address-->
+
+                      <div class="pay-info-promo-code">
+                          <p>Have A Promo Code? Enter It Below:</p>
+
+                          <div class="promo-code">
+                              <input type="text" placeholder="Promo Code">
+                              <button type="button" >APPLY</button>
+                          </div><!--promo-code-->
+
+                          <p>Your Saved Credit & Debit Cards:</p>
+
+                          <div class="saved-cards">
+                              <ul>
+                                  <li>
+                                    <input type="radio" name="radioCard" id="card1" checked>
+                                    <label for="card1"> <span>Visa</span> Ending in 1234, Jill Price 5/19</label>
+                                  </li>
+
+                                  <li>
+                                    <input type="radio" name="radioCard" id="card2">
+                                    <label for="card2"> <span>AMEX</span> Ending in 4321, Jill Price 5/19</label>
+                                  </li>
+
+                                  <li>
+                                    <input type="radio" name="radioCard" id="card3">
+                                    <label for="card3"> <span>Add New Credit / Debit Card</span></label>
+                                  </li>
+                              </ul>
+                          </div><!--saved-cards-->
+
+                          <div class="pay-info-btn">
+                              <div class="pay-next-btn">
+                                  <button class="btn-next" disabled>NEXT</button>
+                              </div><!--pay-next-btn-->
+
+                              <div class="pay-next-btn-label">
+                                  <p>Your card will not be charged until you complete the next step</p>
+                              </div><!--pay-next-btn-label-->
+                          </div><!--pay-info-btn-->
+                      </div><!--pay-info-promo-code-->
+                  </div><!--order-box-drop-->
+              </div><!--order-box-wrap-->
+
+
+              <div class="order-box-wrap">
+                  <div class="order-box">
+                    <div class="box-title">
+                      <h3>5. Complete Order</h3>
+                    </div><!--box title-->
+                  </div><!--order-box-->
+              </div><!--order-box-wrap-->
+
+        </div><!--order-->
+
+
+
+        <div class="order-price fr">
+            <div class="order-sum">
+                <div class="order-headline">
+                    <h3>Order Summary</h3>
+                </div><!--order-headline-->
+
+                <div class="order-devices">
+                    <div class="device-box clr">
+                        <div class="device-img fl">
+                            <img src="images/iqos-res-kit.png" alt="device img">
+                        </div><!--device-img-->
+
+                        <div class="device-info fl">
+                            <h5>IQOS® Reserve Kit 1</h5>
+                            <p class="order-price">$XXX.XX</p>
+                              <p> <span class="order-device-color">Slate</span>  |  <span class="order-quantity">QTY: 1</span></p>
+                        </div><!--device-info-->
+                    </div><!--device-box-->
+
+                    <div class="device-box clr">
+                      <div class="device-img fl">
+                          <img src="images/iqos-device.png" alt="device img">
+                      </div><!--device-img-->
+
+                      <div class="device-info fl">
+                          <h5>IQOS® Device</h5>
+                          <p class="order-price">$XXX.XX</p>
+                          <p> <span class="order-device-color">Slate</span>  |  <span class="order-quantity">QTY: 1</span></p>
+                      </div><!--device-info-->
+                    </div><!--device-box-->
+                </div><!--order-devices-->
+            </div><!--order-sum-->
+
+
+            <div class="price-sum">
+              <div class="order-headline">
+                  <h3>Price Summary</h3>
+              </div><!--order-headline-->
+
+              <div class="summary-box">
+                  <div class="summary-inner">
+                        <div class="inner-left">
+                            <p>Items (2)</p>
+                        </div><!--inner-left-->
+
+                        <div class="inner-right">
+                            <p>$XXX.XX</p>
+                        </div><!--inner-right-->
+                  </div><!--summary-inner-->
+
+                  <div class="summary-inner">
+                        <div class="inner-left">
+                            <p>Sales Tax</p>
+                        </div><!--inner-left-->
+
+                        <div class="inner-right">
+                            <p>$XX.XX</p>
+                        </div><!--inner-right-->
+                  </div><!--summary-inner-->
+
+                  <div class="summary-inner">
+                        <div class="inner-left">
+                            <p>Shipping</p>
+                        </div><!--inner-left-->
+
+                        <div class="inner-right">
+                            <p>Free</p>
+                        </div><!--inner-right-->
+                  </div><!--summary-inner-->
+              </div><!--summary-box-->
+
+              <div class="total-price-box">
+                  <div class="inner-left">
+                      <p>Total</p>
+                  </div><!--inner-left-->
+
+                  <div class="inner-right">
+                      <p>$XXX.XX</p>
+                  </div><!--inner-right-->
+              </div><!--total-price-box-->
+            </div><!--price-sum-->
+        </div><!--order-price-->
+
+    </div><!--checkout-->
+
+
+    <script type="text/javascript" src="script/main.js"></script>
+
+  </body>
+</html>
