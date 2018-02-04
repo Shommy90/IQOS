@@ -148,11 +148,11 @@ a.white-btn-small {text-transform: uppercase; letter-spacing: 1px; font-family: 
 .choose-address .choose-btn label {font-size: 14px;}
 .choose-address .choose-btn label span {font-family: ProximaNova-Bold; }
 .choose-address .choose-btn label span.new-address {font-weight: bold;}
-.choose-address .choose-btn input[type="radio"] {display: none;}
-.choose-address .choose-btn input[type="radio"] + label {display: inline-block; cursor: pointer; padding: 5px 0 5px 30px; position: relative;}
-.choose-address .choose-btn input[type="radio"] + label::before {content: ''; display: inline-block; box-sizing: border-box; width: 20px; height: 20px; border: 1px solid #d4d4d4; border-radius: 100%;
-position: absolute; left: 0; top: 3px; font-size: 20px; transition: all .4s;}
-.choose-address .choose-btn input[type="radio"]:checked + label::before {background-color: #0071dc; box-shadow: inset 0 0 0 3px #fff;}
+input[type="radio"] {display: none;}
+input[type="radio"] + label {display: inline-block; cursor: pointer; padding: 5px 0 5px 30px; position: relative;}
+input[type="radio"] + label::before {content: ''; display: inline-block; box-sizing: border-box; width: 20px; height: 20px; border: 1px solid #d4d4d4; border-radius: 100%;
+position: absolute; left: 0; top: 3px; font-size: 20px; transition: all .3s;}
+input[type="radio"]:checked + label::before {background-color: #0071dc; box-shadow: inset 0 0 0 3px #fff;}
 
 
 
@@ -169,11 +169,11 @@ position: absolute; left: 0; top: 3px; font-size: 20px; transition: all .4s;}
 /*.your-address-new ul li input.zip-code.warning {color: #ed5454; border: 1px solid #ed5454;}*/
 .your-address-new ul li.phone {position: relative; overflow: visible;}
 .your-address-new ul li.phone::after {content: ''; position: absolute; width: 18px; height: 18px; top: 0; bottom: 0; margin: auto; right: -35px; cursor: pointer; background: url(../images/help-btn.png) no-repeat center center;}
-.your-address-new ul li input[type="checkbox"] {display: none;}
-.your-address-new ul li input[type="checkbox"] + label {display: inline-block; cursor: pointer; position: relative; padding-left: 30px;}
-.your-address-new ul li input[type="checkbox"] + label::before {content: '\2714'; border: 1px solid #d4d4d4; width: 20px; height: 20px; box-sizing: border-box; display: inline-block; border-radius: 2px; color: transparent;
+input[type="checkbox"] {display: none;}
+input[type="checkbox"] + label {display: inline-block; cursor: pointer; position: relative; padding-left: 30px;}
+input[type="checkbox"] + label::before {content: '\2714'; border: 1px solid #d4d4d4; width: 20px; height: 20px; box-sizing: border-box; display: inline-block; border-radius: 2px; color: transparent;
 position: absolute; left: 0; top: 5px; font-size: 16px; line-height: 17px; padding-left: 2px; transition: all .2s;}
-.your-address-new ul li input[type="checkbox"]:checked + label::before {color: #fff; background: #0071dc; border-color: #0071dc;}
+input[type="checkbox"]:checked + label::before {color: #fff; background: #0071dc; border-color: #0071dc;}
 
 .order-box-details .address-next-btn {padding: 30px 0 30px 30px; background: #fff;}
 .order-box-details .address-next-btn a.white-btn {transition: all .2s ease; padding-left: 50px; padding-right: 50px;}
@@ -332,7 +332,7 @@ position: absolute; left: 0; top: 5px; font-size: 16px; line-height: 17px; paddi
 .confirm-pickup ul li h5 {font-family: ProximaNova-Semibold; font-size: 16px; line-height: 24px; margin-bottom: 15px;}
 .confirm-pickup ul li.email-confirmation input {box-sizing: border-box; display: block; width: 330px; height: 50px; border: 1px solid #d4d4d4; font-family: ProximaNova-Semibold; font-size: 14px; padding: 0 15px;}
 .confirm-pickup ul li.email-confirmation span {display: block; margin-top: 15px; color: #454545; font-family: ProximaNova-Semibold; font-size: 12px;}
-.confirm-pickup ul li.review-order h5.italic {font-family: ProximaNova-BoldIt; font-size: 16px; line-height: 24px; margin-bottom: 15px;}
+h5.italic {font-family: ProximaNova-BoldIt; font-size: 16px; line-height: 24px; margin-bottom: 15px;}
 .confirm-pickup ul li.review-order ul {margin-bottom: 20px;}
 .confirm-pickup ul li.review-order ul li {font-size: 12px; line-height: 26px;}
 .confirm-pickup ul li.review-order span {font-size: 12px; line-height: 24px; font-family: ProximaNova-Semibold; }
@@ -344,8 +344,8 @@ position: absolute; left: 0; top: 5px; font-size: 16px; line-height: 17px; paddi
 position: absolute; left: 0; top: -3px; font-size: 16px; line-height: 17px; padding-left: 2px; transition: all .2s;}
 .confirm-pickup ul li.recieve .checkbox-recieve input[type="checkbox"]:checked + label::before {color: #fff; background: #0071dc; border-color: #0071dc;}
 
-.confirm-pickup ul li.place-order-btn button {font-family: ProximaNova-Bold; font-size: 16px; transition: all .2s ease; display: inline-block; width: 155px; height: 50px; box-sizing: border-box; background: #0071dc; color: #fff; text-align: center; line-height: 45px; border: 2px solid #0071dc; border-radius: 2px; cursor: pointer;}
-.confirm-pickup ul li.place-order-btn button:hover {background: #fff; color: #0071dc;}
+.place-order-btn button {font-family: ProximaNova-Bold; font-size: 16px; transition: all .2s ease; display: inline-block; width: 155px; height: 50px; box-sizing: border-box; background: #0071dc; color: #fff; text-align: center; line-height: 45px; border: 2px solid #0071dc; border-radius: 2px; cursor: pointer;}
+.place-order-btn button:hover {background: #fff; color: #0071dc;}
 
 
 
@@ -701,10 +701,10 @@ width: 20px; height: 20px; border: 1px solid #d4d4d4; border-radius: 100%; posit
 
 .pay-info-btn {padding: 30px;}
 .pay-info-btn .pay-next-btn {display: inline-block; margin-right: 15px;}
-.pay-info-btn .pay-next-btn button.btn-next {transition: all .2s ease; padding-left: 50px; padding: 10px 50px; cursor: pointer; text-transform: uppercase;
+button.btn-next {transition: all .2s ease; padding: 10px 50px; cursor: pointer; text-transform: uppercase;
 letter-spacing: 1px; font-family: ProximaNova-Bold; font-size: 16px; display: inline-block; box-sizing: border-box; border: 2px solid #0071dc; color: #fff; border-radius: 2px; background: #0071dc;}
-.pay-info-btn .pay-next-btn button.btn-next:hover {background: #fff; color: #0071dc;}
-.pay-info-btn .pay-next-btn button.btn-next:disabled {background: #dedede; color: #fff; border-color: #dedede;}
+button.btn-next:hover {background: #fff; color: #0071dc;}
+button.btn-next:disabled {background: #dedede; color: #fff; border-color: #dedede;}
 .pay-info-btn .pay-next-btn-label {display: inline-block;}
 .pay-info-btn .pay-next-btn-label p {font-family: ProximaNova-Semibold; font-size: 12px; color: #454545;}
 
@@ -736,10 +736,48 @@ position: absolute; left: 0; top: 5px; font-size: 16px; line-height: 17px; paddi
 
 
 
+/************************SHIP TO ME - SAVED ADDRESS**/
+
+.ship-address-saved {width: 100%; padding: 25px;}
+.ship-new-address-radio ul li {margin-bottom: 10px;}
+.ship-new-address-radio ul li:last-child {margin-bottom: 0;}
+span.bold {font-family: ProximaNova-Bold;}
+.saved-address-title {margin-bottom: 20px;}
+.saved-address-title h4 {font-family: ProximaNova-Semibold; font-size: 16px; line-height: 24px;}
+.saved-address-next-btn {padding: 30px;}
+.saved-address-next-btn button {padding-top: 15px; padding-bottom: 15px;}
+
+
+
+/*****************SHIPPING METHOD**/
+
+.ship-method-title {padding: 25px; }
+.ship-method-title h4 {font-family: ProximaNova-Semibold; font-size: 16px; line-height: 24px;}
+
+.ship-method-list {padding: 0 25px;}
+.ship-method-list ul li {margin-bottom: 15px;}
+.ship-method-list ul li:last-child {margin-bottom: 0;}
 
 
 
 
+
+
+/***********************COMPLETE ORDER**/
+
+.review-order-title,
+.agreement-list,
+.recieve-communications {padding: 25px;}
+.review-order-title {padding-bottom: 10px;}
+
+.review-order-title h5.italic {margin-bottom: 0;}
+.agreement-list h4 {font-family: ProximaNova-Semibold; font-size: 16px; line-height: 24px;}
+.agreement-list ul {margin-bottom: 25px;}
+.agreement-list ul li p {font-size: 12px; line-height: 26px;}
+.agreement-list ul li p span {font-family: ProximaNova-Semibold; font-size: 12px; line-height: 24px;}
+.place-order-btn.complete {padding: 25px;}
+.place-order-btn.complete button {text-transform: uppercase;}
+.recieve-communications label {font-size: 14px; line-height: 28px;}
 
 
 
