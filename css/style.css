@@ -637,7 +637,7 @@ span.dot {margin-right: 4px;}
 .order-box-drop .inner-box-drop-empty {width: 100%; height: 1180px;}
  h3.order-subtitle {font-family: Planer-DemiBold; font-size: 24px; line-height: 24px; text-transform: uppercase;}
 .recommended {padding: 10px 0; margin-top: 50px;}
-.recommended .back-to-shop a {text-decoration: underline; vertical-align: bottom; margin-top: 6px; display: inline-block;}
+.back-to-shop a {text-decoration: underline; vertical-align: bottom; margin-top: 6px; display: inline-block;}
 
 
 
@@ -656,7 +656,7 @@ span.dot {margin-right: 4px;}
 .recommended-items .recommended {margin-bottom: 20px;}
 .recommended-items .recom-items-list ul li {background: #fff; max-width: 265px; width: 100%; min-height: 400px; border: 1px solid #d4d4d4; float: left; margin-right: 10px;}
 .recommended-items .recom-items-list ul li:last-child {margin-right: 0;}
-.recom-items-list ul li .recom-items-img {width: 100%; height: 175px;}
+.recom-items-list ul li .recom-items-img {width: 100%; min-height: 175px;}
 .recom-items-list ul li .recom-items-img img {width: 100%;}
 .recom-items-list ul li .recom-items-content { width: 100%; padding: 25px;}
 .recom-items-list ul li .recom-items-content h5 {font-family: ProximaNova-Bold; font-size: 20px; line-height: 24px;}
@@ -781,6 +781,35 @@ span.bold {font-family: ProximaNova-Bold;}
 
 
 
+
+
+/**********************SHIP TO ME CONFIRMATION**/
+
+.your-items.conf {margin-bottom: 50px;}
+.your-items .your-items-title {margin-bottom: 25px; margin-top: 65px;}
+.ship-bill-info {margin-top: 10px; width: 100%;}
+.ship-bill-info .ship-info,
+.ship-bill-info .bill-info {max-width: 400px; width: 100%; height: 140px; border: 1px solid #d4d4d4; background: #fff; padding: 30px;}
+.conf-number.no-marg-b {margin-bottom: 0;}
+.ship-bill-info h5 {font-family: ProximaNova-Semibold; font-size: 16px; line-height: 18px; margin-bottom: 10px;}
+.ship-bill-info p {font-size: 14px; line-height: 20px;}
+
+.next-steps {width: 100%;}
+.next-steps .next-steps-title .next-title {margin-right: 20px;}
+
+
+.next-steps .next-steps-list {width: 100%;}
+.next-steps-list ul {width: 100%;}
+.next-steps-list ul li {max-width: 265px; width: 100%; min-height: 415px; float: left; border: 1px solid #d4d4d4; background: #fff; margin-right: 10px;}
+.next-steps-list ul li:last-child {margin-right: 0;}
+.next-steps-list ul li .steps-img {height: 190px; overflow: hidden; width: 100%;}
+.next-steps-list ul li .steps-cont {width: 100%; min-height: 170px; padding: 15px 25px;}
+.next-steps-list ul li .steps-cont h5 {font-family: ProximaNova-Bold; font-size: 20px; line-height: 24px; margin-bottom: 15px;}
+.next-steps-list ul li .steps-cont p {font-size: 14px; line-height: 24px;}
+.next-steps-list ul li .steps-btn {padding: 0 25px; margin-bottom: 15px;}
+button.steps-button {width: 100%; display: inline-block; height: 50px; line-height: 46px; text-align: center; font-family: ProximaNova-Bold; font-size: 16px;
+border: 2px solid #0071dc; background: #0071dc; color: #fff; transition: all .2s ease; border-radius: 2px; cursor: pointer; text-transform: uppercase;}
+button.steps-button:hover {background: #fff; color: #0071dc;}
 
 
 
